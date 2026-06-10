@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sena & Brose Contabilidade</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- HEADER -->
+
+<header>
+  
+  <div class="main-header container">
+    <div class="logo">
+      <img src="https://i.postimg.cc/ZKkH8v2H/Sena-Brose.png" alt="Sena & Brose">
+      <div class="logo-text">
+        <h1>SENA & BROSE</h1>
+        <span>CONTABILIDADE E NEGÓCIOS</span>
+      </div>
+    </div>
+
+
+    <!-- DIREITA -->
+
+    <div class="right-header">
+
+      <div class="contact">
+        contato@senaebrose.com.br
+      </div>
+
+      <div class="language-switch">
+
+        <button onclick="changeLanguage('pt')">
+          PT
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          EN
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- MENU -->
+
+  <nav>
+
+    <ul class="menu">
+
+      <li>
+        <a href="#" data-lang="menuHome">
+          Início
+        </a>
+      </li>
+
+      <li>
+        <a href="#" data-lang="menuServices">
+          Serviços
+        </a>
+      </li>
+
+      <!-- DROPDOWN -->
+
+      <li class="dropdown">
+
+        <a href="#">
+          <span data-lang="menuAreas">
+            Áreas
+          </span> ▾
+        </a>
+
+        <ul class="dropdown-menu">
+
+          <li>
+            <a href="#" data-lang="dropdownAbnt">
+              Normas ABNT
+            </a>
+          </li>
+
+          <li>
+            <a href="#" data-lang="dropdownLgpd">
+              LGPD
+            </a>
+          </li>
+
+          <li>
+            <a href="#" data-lang="dropdownSustainability">
+              Sustentabilidade
+            </a>
+          </li>
+
+          <li>
+            <a href="#" data-lang="dropdownTechnology">
+              Tecnologia
+            </a>
+          </li>
+
+        </ul>
+
+      </li>
+
+      <li>
+        <a href="#" data-lang="menuContact">
+          Contato
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+
+    <h2 data-lang="heroTitle">
+      Contabilidade que gera confiança e resultados
+    </h2>
+
+    <p data-lang="heroText">
+      Soluções completas em gestão contábil, fiscal e empresarial para impulsionar seu negócio.
+    </p>
+
+    <a href="#" class="btn" data-lang="heroButton">
+      Saiba Mais
+    </a>
+
+  </div>
+
+</section>
+
+  <!-- SERVIÇOS -->
+
+  <section class="services-top">
+
+    <div class="services-grid">
+
+      <div class="service-box">
+        <h3 data-lang="qualityTitle">
+  Qualidade
+</h3>
+        <a href="#" data-lang="learnMore">
+  Saiba mais
+</a>
+      </div>
+
+      <div class="service-box">
+        <h3 data-lang="medicalTitle">
+  Contabilidade Médica
+</h3>
+        <a href="#" data-lang="learnMore">
+  Saiba mais
+</a>
+      </div>
+
+      <div class="service-box">
+        <h3 data-lang="securityTitle">
+  Segurança da Informação
+</h3>
+        <a href="#" data-lang="learnMore">
+  Saiba mais
+</a>
+      </div>
+
+      <div class="service-box">
+        <h3>Compliance</h3>
+        <a href="#" data-lang="learnMore">
+  Saiba mais
+</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="about">
+
+    <div class="container">
+
+      <div class="section-title">
+        SENA & BROSE CONSULTING
+      </div>
+
+	<h2 data-lang="aboutTitle">
+  	Consultoria especializada em Sistemas de Gestão
+	</h2>
+
+      <p data-lang="aboutText">
+        O objetivo da Sena & Brose é ajudar empresas e organizações a se aperfeiçoarem profissional e socialmente.
+      </p>
+
+      <a href="#" class="btn-secondary" data-lang="aboutButton">
+        Saiba Mais
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- ÁREAS -->
+
+<section class="cards">
+
+  <div class="container">
+
+    <div class="section-title">
+      SENA & BROSE CONSULTING
+    </div>
+
+    <h2 data-lang="managementSystems">
+      Sistemas de Gestão
+    </h2>
+
+    <div class="cards-grid">
+
+      <!-- QUALIDADE -->
+
+      <div class="card">
+
+        <img src="https://i.postimg.cc/v8knFNy0/0qualidade.png">
+
+        <div class="overlay">
+
+          <h3 data-lang="qualityTitle">
+            Qualidade
+          </h3>
+
+          <p data-lang="qualityText">
+            A qualidade é um fator essencial em qualquer segmento. Nossa equipe possui ampla expertise em sistemas de gestão da qualidade, incluindo normas como ISO 9001.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- SEGURANÇA DA INFORMAÇÃO -->
+
+      <div class="card">
+
+        <img src="https://i.postimg.cc/8k9vQ0GH/0cybersecurity.png">
+
+        <div class="overlay">
+
+          <h3 data-lang="securityTitle">
+            Segurança da Informação
+          </h3>
+
+          <p data-lang="securityText">
+            Em um cenário cada vez mais digital e conectado, a segurança da informação tornou-se indispensável para proteger os ativos, os dados e a reputação das organizações.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- CONTABILIDADE MÉDICA -->
+
+      <div class="card">
+
+        <img src="https://i.postimg.cc/8k9vQ0Gb/0contabilidademedica.png">
+
+        <div class="overlay">
+
+          <h3 data-lang="medicalTitle">
+            Contabilidade Médica
+          </h3>
+
+          <p data-lang="medicalText">
+            Em um setor que exige precisão, conformidade e gestão eficiente, a contabilidade médica desempenha um papel essencial para a sustentabilidade e o crescimento de clínicas, consultórios e profissionais da saúde.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- CONTABILIDADE -->
+
+      <div class="card">
+
+        <img src="https://i.postimg.cc/T2FbM4xC/0jurisprudencia.png">
+
+        <div class="overlay">
+
+          <h3 data-lang="accountingTitle">
+            Contabilidade
+          </h3>
+
+          <p data-lang="accountingText">
+            A contabilidade é um elemento estratégico para o crescimento sustentável e a segurança financeira de qualquer organização. Oferecemos serviços contábeis completos, com foco em gestão financeira, planejamento tributário, conformidade fiscal e suporte à tomada de decisões.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- NOTÍCIAS -->
+
+  <section class="blog">
+
+    <div class="container">
+
+      <div class="blog-title">
+
+        <div class="section-title">
+          NOTÍCIAS
+        </div>
+
+        <h2 data-lang="newsTitle">
+          Publicações em destaque
+        </h2>
+
+      </div>
+
+      <div class="blog-grid">
+
+        <div class="post">
+
+          <img src="https://i.postimg.cc/sxPYnYL4/Novidades.png">
+
+          <div class="post-content">
+
+            <h3 data-lang="newsCard1Title">
+              Diferentes níveis para seu projeto decolar
+            </h3>
+
+            <p data-lang="newsCard1Text">
+              Padrões Europeus de segurança e regulamentação legal.
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="post">
+
+          <img src="https://i.postimg.cc/L5SfZqsR/002.png">
+
+          <div class="post-content">
+
+            <h3 data-lang="newsCard2Title">
+  	Jurisprudência com pessoal especializado
+	</h3>
+
+	<p data-lang="newsCard2Text">
+ 	 Transições tranquilas e certificação em compliance penal.
+	</p>
+
+          </div>
+
+        </div>
+
+        <div class="post">
+
+          <img src="https://i.postimg.cc/j26H8H1Q/Seguranca-Medica.png">
+
+          <div class="post-content">
+
+            <h3 data-lang="newsCard3Title">
+  Segurança Médica
+	</h3>
+
+	<p data-lang="newsCard3Text">
+  Confiança, conformidade e proteção para clínicas e hospitais.
+	</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div>
+
+          <h4 data-lang="footerQuality">
+  Política de Qualidade
+	</h4>
+
+	<p data-lang="footerQualityText">
+  Solicite nossa política de qualidade e meio ambiente.
+	</p>
+        </div>
+
+        <div>
+
+         <h4 data-lang="footerOffice">
+ 	 Escritórios
+	</h4>
+
+	<p data-lang="footerOfficeText">
+	  Consulte nossos escritórios.
+	</p>
+
+        </div>
+
+        <div>
+
+          <h4 data-lang="footerMore">
+  	Mais informações
+	</h4>
+
+	<li data-lang="footerLegal">
+	  Aviso legal
+	</li>
+
+	<li data-lang="footerPrivacy">
+ 	 Política de privacidade
+	</li>
+
+	<li data-lang="footerCookies">
+ 	 Política de cookies
+	</li>
+
+        </div>
+
+        <div>
+
+          <h4 data-lang="footerForm">
+ 	 Formulário de contato
+	</h4>
+
+          <form>
+
+            <input type="text" id="name" placeholder="Nome">
+
+            <input type="email" placeholder="Email">
+
+            <textarea id="message" placeholder="Comentários"></textarea>
+
+            <button type="submit" id="formButton">
+              Enviar
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        © 2026 Sena & Brose Contabilidade
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
