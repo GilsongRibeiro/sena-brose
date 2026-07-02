@@ -20,7 +20,7 @@ const translations = {
       "Contato",
 
     dropdownAbnt:
-      "Normas ABNT",
+      "Holding Familiar",
 
     dropdownLgpd:
       "LGPD",
@@ -109,6 +109,92 @@ const translations = {
 
     accountingText:
       "A contabilidade é um elemento estratégico para o crescimento sustentável e a segurança financeira de qualquer organização. Oferecemos serviços contábeis completos, com foco em gestão financeira, planejamento tributário, conformidade fiscal e suporte à tomada de decisões.",
+	
+	/* HOLDING */
+
+holdingHeroTitle:
+  "Holding Familiar",
+
+holdingHeroText:
+  "Proteja seu patrimônio, organize a sucessão dos seus bens e planeje o futuro da sua família com mais segurança.",
+
+holdingHeroButton:
+  "Solicitar uma Análise",
+
+holdingSectionTitle:
+  "HOLDING FAMILIAR",
+
+holdingAboutTitle:
+  "O que é uma Holding Familiar?",
+
+holdingAboutText:
+  "Simplificando, uma Holding Familiar é uma empresa criada para administrar os bens e negócios de uma pessoa ou família, trazendo mais organização, segurança jurídica e eficiência na gestão patrimonial.",
+
+holdingBenefits:
+  "BENEFÍCIOS",
+
+holdingBenefitsTitle:
+  "Por que criar uma Holding?",
+
+holdingCard1Title:
+  "Proteção Patrimonial",
+
+holdingCard1Text:
+  "Organize e proteja os bens da família de forma estruturada e segura.",
+
+holdingCard2Title:
+  "Planejamento Sucessório",
+
+holdingCard2Text:
+  "Facilite a sucessão dos bens e reduza conflitos familiares futuros.",
+
+holdingCard3Title:
+  "Organização Patrimonial",
+
+holdingCard3Text:
+  "Centralize a administração de imóveis, participações societárias e investimentos.",
+
+holdingCard4Title:
+  "Segurança Jurídica",
+
+holdingCard4Text:
+  "Estruture o patrimônio familiar com planejamento e previsibilidade.",
+
+holdingFaq:
+  "PERGUNTAS FREQUENTES",
+
+holdingFaqTitle:
+  "Principais dúvidas sobre Holding Familiar",
+
+holdingFaq1Title:
+  "Vou perder meus bens?",
+
+holdingFaq1Text:
+  "Não. Os bens continuam pertencendo à família, porém passam a ser administrados pela holding.",
+
+holdingFaq2Title:
+  "É apenas para pessoas muito ricas?",
+
+holdingFaq2Text:
+  "Não. Dependendo da situação patrimonial, a holding pode ser vantajosa para diversas famílias.",
+
+holdingFaq3Title:
+  "É legal?",
+
+holdingFaq3Text:
+  "Sim. A Holding Familiar é um instrumento plenamente previsto na legislação brasileira.",
+
+holdingCompany:
+  "SENA & BROSE CONTABILIDADE",
+
+holdingCtaTitle:
+  "Seu patrimônio está protegido?",
+
+holdingCtaText:
+  "Cada família possui necessidades diferentes. Nossa equipe realiza uma análise personalizada para identificar se uma Holding Familiar é a melhor solução para o seu caso.",
+
+holdingCtaButton:
+  "Entre em contato",
 
     /* BLOG */
 
@@ -199,7 +285,7 @@ const translations = {
       "Contact",
 
     dropdownAbnt:
-      "ABNT Standards",
+      "Family Holding",
 
     dropdownLgpd:
       "LGPD",
@@ -288,6 +374,92 @@ const translations = {
 
     accountingText:
       "Accounting is a strategic element for sustainable growth and financial security in any organization.",
+
+	/* HOLDING */
+
+holdingHeroTitle:
+  "Family Holding",
+
+holdingHeroText:
+  "Protect your assets, organize the succession of your estate, and plan your family's future with greater security.",
+
+holdingHeroButton:
+  "Request an Assessment",
+
+holdingSectionTitle:
+  "FAMILY HOLDING",
+
+holdingAboutTitle:
+  "What is a Family Holding?",
+
+holdingAboutText:
+  "A Family Holding is a company created to manage the assets and businesses of an individual or family, providing greater organization, legal security and efficiency in asset management.",
+
+holdingBenefits:
+  "BENEFITS",
+
+holdingBenefitsTitle:
+  "Why create a Holding Company?",
+
+holdingCard1Title:
+  "Asset Protection",
+
+holdingCard1Text:
+  "Organize and protect your family's assets in a structured and secure way.",
+
+holdingCard2Title:
+  "Estate Planning",
+
+holdingCard2Text:
+  "Simplify asset succession and reduce future family conflicts.",
+
+holdingCard3Title:
+  "Asset Organization",
+
+holdingCard3Text:
+  "Centralize the management of real estate, investments and business interests.",
+
+holdingCard4Title:
+  "Legal Security",
+
+holdingCard4Text:
+  "Structure your family's assets with planning and legal certainty.",
+
+holdingFaq:
+  "FREQUENTLY ASKED QUESTIONS",
+
+holdingFaqTitle:
+  "Frequently Asked Questions about Family Holdings",
+
+holdingFaq1Title:
+  "Will I lose my assets?",
+
+holdingFaq1Text:
+  "No. Your assets remain yours, but are managed through the holding company.",
+
+holdingFaq2Title:
+  "Is it only for wealthy families?",
+
+holdingFaq2Text:
+  "No. Depending on the assets involved, a holding company can benefit many families.",
+
+holdingFaq3Title:
+  "Is it legal?",
+
+holdingFaq3Text:
+  "Yes. A Family Holding is fully recognized under Brazilian law.",
+
+holdingCompany:
+  "SENA & BROSE ACCOUNTING",
+
+holdingCtaTitle:
+  "Is your wealth protected?",
+
+holdingCtaText:
+  "Every family has different needs. Our team provides a personalized assessment to determine whether a Family Holding is the best solution for your situation.",
+
+holdingCtaButton:
+  "Contact Us",
 
     /* BLOG */
 
