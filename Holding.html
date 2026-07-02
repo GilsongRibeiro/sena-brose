@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sena & Brose Contabilidade</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- HEADER -->
+
+<header>
+  
+  <div class="main-header container">
+    <div class="logo">
+      <img src="https://i.postimg.cc/ZKkH8v2H/Sena-Brose.png" alt="Sena & Brose">
+      <div class="logo-text">
+        <h1>SENA & BROSE</h1>
+        <span>CONTABILIDADE E NEGÓCIOS</span>
+      </div>
+    </div>
+
+
+    <!-- DIREITA -->
+
+    <div class="right-header">
+
+      <div class="contact">
+        contato@senaebrose.com.br
+      </div>
+	<div class="contact">
+        +55 11 3101-2881
+      </div>
+
+      <div class="language-switch">
+
+        <button onclick="changeLanguage('pt')">
+          PT
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          EN
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- MENU -->
+
+  <nav>
+
+    <ul class="menu">
+
+      <li>
+        <a href="index.html" data-lang="menuHome">
+          Início
+        </a>
+      </li>
+
+      <li>
+        <a href="#" data-lang="menuServices">
+          Serviços
+        </a>
+      </li>
+
+      <!-- DROPDOWN -->
+
+      <li class="dropdown">
+
+        <a href="#">
+          <span data-lang="menuAreas">
+            Áreas
+          </span> ▾
+        </a>
+
+        <ul class="dropdown-menu">
+
+          <li>
+            <a href="#" data-lang="dropdownAbnt">
+             Holding Familiar
+            </a>
+          </li>
+
+          <li>
+            <a href="LGPD.html" data-lang="dropdownLgpd">
+              LGPD
+            </a>
+          </li>
+
+          <li>
+            <a href="#" data-lang="dropdownSustainability">
+              Sustentabilidade
+            </a>
+          </li>
+
+          <li>
+            <a href="#" data-lang="dropdownTechnology">
+              Tecnologia
+            </a>
+          </li>
+
+        </ul>
+
+      </li>
+
+      <li>
+        <a href="#" data-lang="menuContact">
+          Contato
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+
+<h2 data-lang="holdingHeroTitle">
+  Holding Familiar
+</h2>
+
+<p data-lang="holdingHeroText">
+  Proteja seu patrimônio, organize a sucessão dos seus bens
+  e planeje o futuro da sua família com mais segurança.
+</p>
+
+<a href="#holding-contato" class="btn" data-lang="holdingHeroButton">
+  Solicitar uma Análise
+</a>
+
+  </div>
+
+</section>
+
+<!-- O QUE É -->
+
+<section class="about">
+
+  <div class="container">
+
+<div class="section-title" data-lang="holdingSectionTitle">
+  HOLDING FAMILIAR
+</div>
+
+<h2 data-lang="holdingAboutTitle">
+  O que é uma Holding Familiar?
+</h2>
+
+<p data-lang="holdingAboutText">
+  Simplificando, uma Holding Familiar é uma empresa criada
+  para administrar os bens e negócios de uma pessoa ou família,
+  trazendo mais organização, segurança jurídica e eficiência
+  na gestão patrimonial.
+</p>
+
+</section>
+
+<!-- BENEFÍCIOS -->
+
+<section class="cards">
+
+  <div class="container">
+
+<div class="section-title" data-lang="holdingBenefits">
+  BENEFÍCIOS
+</div>
+
+<h2 data-lang="holdingBenefitsTitle">
+  Por que criar uma Holding?
+</h2>
+
+<div class="cards-grid">
+
+  <div class="card">
+    <img src="https://i.postimg.cc/h4LdFX68/Protecao-Patrimonial.png">
+
+    <div class="overlay">
+
+      <h3 data-lang="holdingCard1Title">
+  Proteção Patrimonial
+</h3>
+
+<p data-lang="holdingCard1Text">
+  Organize e proteja os bens da família
+  de forma estruturada e segura.
+</p>
+
+    </div>
+
+  </div>
+
+  <div class="card">
+    <img src="https://i.postimg.cc/MpKRmzs4/Planejamento-Sucessorio.png">
+
+    <div class="overlay">
+
+      <h3 data-lang="holdingCard2Title">
+  Planejamento Sucessório
+</h3>
+
+<p data-lang="holdingCard2Text">
+  Facilite a sucessão dos bens e reduza
+  conflitos familiares futuros.
+</p>
+
+    </div>
+
+  </div>
+
+  <div class="card">
+    <img src="https://i.postimg.cc/htPx1KCY/Org-Patrimonial.png">
+
+    <div class="overlay">
+
+      <h3 data-lang="holdingCard3Title">
+  Organização Patrimonial
+</h3>
+
+<p data-lang="holdingCard3Text">
+  Centralize a administração de imóveis,
+  participações societárias e investimentos.
+</p>
+
+    </div>
+
+  </div>
+
+  <div class="card">
+    <img src="https://i.postimg.cc/L86f3myw/Seg-Juridica.png">
+
+    <div class="overlay">
+
+      <h3 data-lang="holdingCard4Title">
+  Segurança Jurídica
+</h3>
+
+<p data-lang="holdingCard4Text">
+  Estruture o patrimônio familiar com
+  planejamento e previsibilidade.
+</p>
+    </div>
+
+  </div>
+
+</div>
+  </div>
+
+</section>
+
+<!-- DÚVIDAS -->
+
+<section class="blog">
+
+  <div class="container">
+
+<div class="blog-title">
+
+  <div class="section-title" data-lang="holdingFaq">
+  PERGUNTAS FREQUENTES
+</div>
+
+<h2 data-lang="holdingFaqTitle">
+  Principais dúvidas sobre Holding Familiar
+</h2>
+
+</div>
+
+<div class="blog-grid">
+
+  <div class="post">
+
+    <div class="post-content">
+
+      <h3 data-lang="holdingFaq1Title">
+  Vou perder meus bens?
+</h3>
+
+<p data-lang="holdingFaq1Text">
+  Não. Os bens continuam pertencendo à família,
+  porém passam a ser administrados pela holding.
+</p>
+
+    </div>
+
+  </div>
+
+  <div class="post">
+
+    <div class="post-content">
+
+     <h3 data-lang="holdingFaq2Title">
+  É apenas para pessoas muito ricas?
+</h3>
+
+<p data-lang="holdingFaq2Text">
+  Não. Dependendo da situação patrimonial,
+  a holding pode ser vantajosa para diversas famílias.
+</p>
+
+    </div>
+
+  </div>
+
+  <div class="post">
+
+    <div class="post-content">
+
+      <h3 data-lang="holdingFaq3Title">
+  É legal?
+</h3>
+
+<p data-lang="holdingFaq3Text">
+  Sim. A Holding Familiar é um instrumento
+  plenamente previsto na legislação brasileira.
+</p>
+
+    </div>
+
+  </div>
+
+</div>
+  </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="about" id="holding-contato">
+
+  <div class="container">
+
+<div class="section-title">
+  SENA & BROSE CONTABILIDADE
+</div>
+
+<div class="section-title" data-lang="holdingCompany">
+  SENA & BROSE CONTABILIDADE
+</div>
+
+<h2 data-lang="holdingCtaTitle">
+  Seu patrimônio está protegido?
+</h2>
+
+<p data-lang="holdingCtaText">
+  Cada família possui necessidades diferentes.
+  Nossa equipe realiza uma análise personalizada
+  para identificar se uma Holding Familiar é a melhor
+  solução para o seu caso.
+</p>
+
+<a href="#" class="btn-secondary" data-lang="holdingCtaButton">
+  Entre em contato
+</a>
+
+  </div>
+
+</section>
+
+ <!-- FOOTER -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div>
+
+          <h4 data-lang="footerQuality">
+  Política de Qualidade
+	</h4>
+
+	<p data-lang="footerQualityText">
+  Solicite nossa política de qualidade e meio ambiente.
+	</p>
+        </div>
+
+        <div>
+
+         <h4 data-lang="footerOffice">
+ 	 Escritórios
+	</h4>
+
+	<p data-lang="footerOfficeText">
+	  Consulte nossos escritórios.
+	</p>
+
+        </div>
+
+        <div>
+
+          <h4 data-lang="footerMore">
+  	Mais informações
+	</h4>
+
+	<li data-lang="footerLegal">
+	  Contate-nos: +55 11 3101-2881
+	</li>
+
+	<li data-lang="footerPrivacy">
+ 	 Política de privacidade
+	</li>
+
+	<li data-lang="footerCookies">
+ 	 Política de cookies
+	</li>
+
+        </div>
+
+        <div>
+
+          <h4 data-lang="footerForm">
+ 	 Formulário de contato
+	</h4>
+
+          <form>
+
+            <input type="text" id="name" placeholder="Nome">
+
+            <input type="email" placeholder="Email">
+
+            <textarea id="message" placeholder="Comentários"></textarea>
+
+            <button type="submit" id="formButton">
+              Enviar
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        © 2026 Sena & Brose Contabilidade
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
