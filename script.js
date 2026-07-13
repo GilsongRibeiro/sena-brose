@@ -45,16 +45,16 @@ const translations = {
     /* SERVICES */
 
     serviceQuality:
-      "Qualidade",
+      "Holding",
 
     serviceMedical:
       "Contabilidade Médica",
 
     serviceSecurity:
-      "Segurança da Informação",
+      "Societário",
 
     serviceCompliance:
-      "Compliance",
+      "Governança",
 
     learnMore:
       "Saiba mais",
@@ -65,7 +65,7 @@ const translations = {
       "SENA & BROSE CONSULTING",
 
     aboutTitle:
-      "Consultoria especializada em Sistemas de Gestão",
+      "Consultoria Contabilidade e Negócios",
 
     aboutText:
       "O objetivo da Sena & Brose é ajudar empresas e organizações a se aperfeiçoarem profissional e socialmente.",
@@ -81,18 +81,18 @@ const translations = {
     /* QUALITY */
 
     qualityTitle:
-      "Qualidade",
+      "Holding",
 
     qualityText:
-      "A qualidade é um fator essencial em qualquer segmento. Nossa equipe possui ampla expertise em sistemas de gestão da qualidade, incluindo normas como ISO 9001.",
+      "Simplificando, uma holding é uma empresa criada para administrar os bens e negócios de uma pessoa ou família, trazendo mais organização e segurança. Imagine ter tudo sob controle, com menos burocracia e mais eficiência.",
 
     /* SECURITY */
 
     securityTitle:
-      "Segurança da Informação",
+      "Planejamento Societário",
 
     securityText:
-      "Em um cenário cada vez mais digital e conectado, a segurança da informação tornou-se indispensável para proteger os ativos, os dados e a reputação das organizações.",
+      "Planejamento societário é um conjunto de estratégias que organiza a estrutura de uma empresa. Ele define a participação dos sócios, as responsabilidades e as regras de convivência do negócio.",
 
     /* MEDICAL ACCOUNTING */
 
@@ -105,10 +105,10 @@ const translations = {
     /* ACCOUNTING */
 
     accountingTitle:
-      "Contabilidade",
+      "Governaça",
 
     accountingText:
-      "A contabilidade é um elemento estratégico para o crescimento sustentável e a segurança financeira de qualquer organização. Oferecemos serviços contábeis completos, com foco em gestão financeira, planejamento tributário, conformidade fiscal e suporte à tomada de decisões.",
+      "A governança tributária é o sistema de políticas, processos e práticas que uma organização estabelece para gerenciar suas obrigações fiscais de forma estratégica, transparente e em conformidade com a legislação.",
 	
 	/* HOLDING */
 
@@ -291,10 +291,10 @@ holdingCtaButton:
       "LGPD",
 
     dropdownSustainability:
-      "Sustainability",
+      "Corporate planning",
 
     dropdownTechnology:
-      "Technology",
+      "Tax governance",
 
     /* HERO */
 
@@ -310,16 +310,16 @@ holdingCtaButton:
     /* SERVICES */
 
     serviceQuality:
-      "Quality",
+      "Holding",
 
     serviceMedical:
-      "MEDICAL ACCOUNTING",
+      "Medical Accounting",
 
     serviceSecurity:
-      "Information Security",
+      "Corporate planning",
 
     serviceCompliance:
-      "Compliance",
+      "Tax governance",
 
     learnMore:
       "Learn more",
@@ -330,7 +330,7 @@ holdingCtaButton:
       "SENA & BROSE CONSULTING",
 
     aboutTitle:
-      "Specialized consulting in Management Systems",
+      "Accounting and Business Consulting",
 
     aboutText:
       "Sena & Brose's goal is to help companies and organizations improve professionally and socially.",
@@ -346,18 +346,18 @@ holdingCtaButton:
     /* QUALITY */
 
     qualityTitle:
-      "Quality",
+      "Holding",
 
     qualityText:
-      "Quality is an essential factor in any industry. Our team has extensive expertise in quality management systems, including standards such as ISO 9001",
+      "Simply put, a holding company is a company created to manage the assets and businesses of a person or family, bringing more organization and security. Imagine having everything under control, with less bureaucracy and more efficiency.",
 
     /* SECURITY */
 
     securityTitle:
-      "Information Security",
+      "Corporate planning",
 
     securityText:
-      "In an increasingly digital and connected world, information security has become essential to protect organizational assets, data and reputation.",
+      "Corporate planning is a set of strategies that organizes a company's structure. It defines the partners' participation, responsibilities, and rules of conduct within the business.",
 
     /* MEDICAL ACCOUNTING */
 
@@ -370,10 +370,10 @@ holdingCtaButton:
     /* ACCOUNTING */
 
     accountingTitle:
-      "Accounting",
+      "Tax Governance",
 
     accountingText:
-      "Accounting is a strategic element for sustainable growth and financial security in any organization.",
+      "Tax governance is the system of policies, processes, and practices that an organization establishes to manage its tax obligations in a strategic, transparent, and legally compliant manner.",
 
 	/* HOLDING */
 
