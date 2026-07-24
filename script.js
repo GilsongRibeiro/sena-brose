@@ -205,16 +205,16 @@ holdingCtaButton:
       "Publicações em destaque",
 
     newsCard1Title:
-      "Diferentes níveis para seu projeto decolar",
+      "Aumento de Carga tributária em 2026",
 
     newsCard1Text:
-      "Padrões Europeus de segurança e regulamentação legal.",
+      "Siga-nos no instagram: @senaebrose",
 
     newsCard2Title:
-      "Jurisprudência com pessoal especializado",
+      "Novas Bases de cálculo IR e CSLL",
 
     newsCard2Text:
-      "Transições tranquilas e certificação em compliance penal.",
+      "IRPJ: 8% to 8,8% e CSLL: 12% to 13,2%.",
 
     newsCard3Title:
       "Segurança Médica",
@@ -470,22 +470,22 @@ holdingCtaButton:
       "Featured Publications",
 
     newsCard1Title:
-      "Different levels for your project to take off",
+      "Increase in tax burden in 2026",
 
     newsCard1Text:
-      "European standards for security and legal regulation.",
+      "Follow us: @senaebrose.",
 
     newsCard2Title:
-      "Jurisprudence with specialized professionals",
+      "New bases for calculating IR and CSLL",
 
     newsCard2Text:
-      "Smooth transitions and criminal compliance certification.",
+      "Corporate Income Tax (IRPJ): 8% to 8.8% and Social Contribution on Net Profit (CSLL): 12% to 13.2%.",
 
     newsCard3Title:
-      "Medical Security",
+      "Bill of Laws",
 
     newsCard3Text:
-      "Trust, compliance and protection for clinics and hospitals.",
+      "Stay tuned for updates, follow us on Instagram: @senaebrose",
 
     /* FOOTER */
 
